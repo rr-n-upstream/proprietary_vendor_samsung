@@ -251,3 +251,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3gds/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
 	vendor/samsung/s3ve3gds/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	vendor/samsung/s3ve3gds/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
+
+# Fix ril
+PRODUCT_COPY_FILES += \ 
+	vendor/samsung/s3ve3gds/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+	vendor/samsung/s3ve3gds/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/samsung/s3ve3gds/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+	vendor/samsung/s3ve3gds/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+	vendor/samsung/s3ve3gds/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+	vendor/samsung/s3ve3gds/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so
