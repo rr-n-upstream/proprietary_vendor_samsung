@@ -18,4 +18,4 @@
 PRODUCT_PACKAGES += \
     TimeService
 
-$(call inherit-product, vendor/samsung/s3ve3gds/s3ve3gds-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/s3ve3gds/sony/s3ve3gds-vendor-blobs.mk)
